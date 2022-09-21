@@ -1,0 +1,126 @@
+﻿<UserControl
+    x:Class="BorderLineAnimation.BorderDash"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:BorderLineAnimation"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="LayoutRoot"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <Grid x:Name="RootObj" Visibility="Collapsed">
+        <Grid Height="1" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="TopSuperStart" Width="0*" />
+                <ColumnDefinition x:Name="TopStart" Width="0*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition x:Name="TopPenEnd" Width="*" />
+                <ColumnDefinition x:Name="TopEnd" Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="2" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="4" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="6" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="8" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="10" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="12" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="14" Background="{Binding BColor, ElementName=LayoutRoot}" />
+        </Grid>
+        <Grid Height="1" VerticalAlignment="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="BottomSuperStart" Width="*" />
+                <ColumnDefinition x:Name="BottomStart" Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition x:Name="BottomPenEnd" Width="0*" />
+                <ColumnDefinition x:Name="BottomEnd" Width="0*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="3" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="5" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="7" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="9" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="11" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="13" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Column="15" Background="{Binding BColor, ElementName=LayoutRoot}" />
+        </Grid>
+        <Grid Width="1" HorizontalAlignment="Right">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Name="RightSuperStart" Height="0*" />
+                <RowDefinition x:Name="RightStart" Height="0*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition x:Name="RightPenEnd" Height="*" />
+                <RowDefinition x:Name="RightEnd" Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="2" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="4" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="6" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="8" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="10" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="12" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="14" Background="{Binding BColor, ElementName=LayoutRoot}" />
+        </Grid>
+        <Grid Width="1" HorizontalAlignment="Left">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Name="LeftSuperStart" Height="1*" />
+                <RowDefinition x:Name="LeftStart" Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition x:Name="LeftPenEnd" Height="0*" />
+                <RowDefinition x:Name="LeftEnd" Height="0*" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="3" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="5" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="7" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="9" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="11" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="13" Background="{Binding BColor, ElementName=LayoutRoot}" />
+            <Grid Grid.Row="15" Background="{Binding BColor, ElementName=LayoutRoot}" />
+        </Grid>
+    </Grid>
+</UserControl>

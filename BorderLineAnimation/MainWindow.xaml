@@ -1,0 +1,85 @@
+﻿<Window
+    x:Class="BorderLineAnimation.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:BorderLineAnimation"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <local:BorderDash x:Name="BorderDash" />
+        <local:BorderTopDash
+            x:Name="BorderTopDash"
+            BColor="Red"
+            Duration="100" />
+        <local:BorderSides2 x:Name="BorderSides2" BColor="HotPink" />
+        <local:BorderFade
+            x:Name="BorderWarningFlash"
+            BColor="Red"
+            FadeInDuration="80"
+            FadeOutDelay="80"
+            FadeOutDuration="80" />
+        <local:BorderFade x:Name="BorderFade" BColor="White" />
+        <local:BorderLoop x:Name="BorderLoop" BColor="Yellow" />
+        <local:BorderSides1 x:Name="BorderSides1" />
+
+        <Grid
+            x:Name="WindowContents"
+            Margin="1"
+            Background="Black">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button
+                    MinWidth="100"
+                    Margin="5"
+                    Click="LoopButtonClick">
+                    Loop
+                </Button>
+                <StackPanel Orientation="Horizontal">
+                    <Button
+                        MinWidth="100"
+                        Margin="5"
+                        Click="Sides1ButtonClick">
+                        Sides1
+                    </Button>
+                    <Button
+                        MinWidth="100"
+                        Margin="5"
+                        Click="Sides2ButtonClick">
+                        Sides2
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button
+                        MinWidth="100"
+                        Margin="5"
+                        Click="FlashButtonClick">
+                        Flash
+                    </Button>
+                    <ToggleButton
+                        MinWidth="100"
+                        Margin="5"
+                        Click="WarningFlashToggleClick">
+                        Toggle Warning Flash
+                    </ToggleButton>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <ToggleButton
+                        MinWidth="100"
+                        Margin="5"
+                        Click="TopDashToggleClick">
+                        Top Dash
+                    </ToggleButton>
+                    <ToggleButton
+                        MinWidth="100"
+                        Margin="5"
+                        Click="DashToggleClick">
+                        Dash
+                    </ToggleButton>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="TextHighLighthDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextHighLighthDemo"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Gray">
+        <StackPanel Height="300">
+            <Image x:Name="img" Height="70" VerticalAlignment="Top" >
+                <Image.Effect>
+                    <DropShadowEffect Color="#00ffff" ShadowDepth="0" BlurRadius="15"/>
+                </Image.Effect>
+            </Image>
+            <Image x:Name="img1" Height="35" VerticalAlignment="Top" Margin="0 10 0 0">
+                <Image.Effect>
+                    <DropShadowEffect Color="#00ffff" ShadowDepth="0" BlurRadius="5"/>
+                </Image.Effect>
+            </Image>
+        </StackPanel>
+    </Grid>
+</Window>

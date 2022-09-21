@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32728.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp2", "WpfApp2\WpfApp2.csproj", "{9BFB0999-D3B0-4100-887E-3942637EE8B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextHighLighthDemo", "TextHighLighthDemo\TextHighLighthDemo.csproj", "{C74B54E1-17DE-4365-AA09-22C132292D44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpfnet5", "wpfnet5-master\Wpfnet5.csproj", "{9A13BD3B-1CD9-4CD5-A2AC-58C261426955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderLineAnimation", "BorderLineAnimation\BorderLineAnimation.csproj", "{7BCD9CF3-5377-484C-808E-2C9FB844D3BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BFB0999-D3B0-4100-887E-3942637EE8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFB0999-D3B0-4100-887E-3942637EE8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFB0999-D3B0-4100-887E-3942637EE8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFB0999-D3B0-4100-887E-3942637EE8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74B54E1-17DE-4365-AA09-22C132292D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74B54E1-17DE-4365-AA09-22C132292D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74B54E1-17DE-4365-AA09-22C132292D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74B54E1-17DE-4365-AA09-22C132292D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A13BD3B-1CD9-4CD5-A2AC-58C261426955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A13BD3B-1CD9-4CD5-A2AC-58C261426955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A13BD3B-1CD9-4CD5-A2AC-58C261426955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A13BD3B-1CD9-4CD5-A2AC-58C261426955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCD9CF3-5377-484C-808E-2C9FB844D3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCD9CF3-5377-484C-808E-2C9FB844D3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCD9CF3-5377-484C-808E-2C9FB844D3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCD9CF3-5377-484C-808E-2C9FB844D3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCEDB941-DF1A-4F27-8FB4-C3F3C5320BF2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+﻿<UserControl
+    x:Class="Wpfnet5.CircleStamp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Wpfnet5"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="250"
+    d:DesignWidth="250"
+    mc:Ignorable="d">
+    <Viewbox>
+        <Grid
+            x:Name="grid"
+            Width="250"
+            Height="250">
+            <Ellipse Margin="0" Stroke="Red" />
+            <Path
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Data="F1 M 55.467773,1.628906 L 68.130859,40.893066 L 109.385742,40.802734 L 75.957031,64.979004 L 88.791016,104.187500 L 55.467773,79.865234 L 22.144531,104.187500 L 34.978516,64.979004 L 1.549805,40.802734 L 42.804688,40.893066 L 55.467773,1.628906 Z"
+                Fill="#FFFF0000"
+                RenderTransformOrigin="0.5,0.5"
+                Stroke="{x:Null}"
+                StrokeThickness="1.000000">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.68" ScaleY="0.68" />
+                        <SkewTransform AngleX="0" AngleY="0" />
+                        <RotateTransform Angle="0" />
+                        <TranslateTransform X="0" Y="0" />
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+        </Grid>
+
+    </Viewbox>
+</UserControl>
